@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>支持 — ZipMan</title>
+    <meta name="description" content="常见问题的答案都在这里。">
+    <link rel="canonical" href="https://zipman.hiimobapps.cn/support/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zipman.hiimobapps.cn/support/">
+    <meta property="og:title" content="支持 — ZipMan">
+    <meta property="og:description" content="常见问题的答案都在这里。">
+    <meta property="og:image" content="https://zipman.hiimobapps.cn/assets/og.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#4c2ff0">
+    <link rel="icon" href="/assets/icon-64.png">
+    <link rel="apple-touch-icon" href="/assets/icon-256.png">
+    <link rel="stylesheet" href="/assets/style.css">
+  </head>
+  <body>
+    <header class="top">
+      <a class="brand" href="/"><img src="/assets/icon-64.png" alt="" width="32" height="32"><span>ZipMan</span></a>
+      <nav>
+        <a href="/#features">功能</a>
+        <a href="/#formats">格式</a>
+        <a href="/support/">支持</a>
+        <a class="button small" href="/#download">下载</a>
+      </nav>
+    </header>
+    <main>
+      <article class="doc">
+        <h1>支持</h1>
+        <p class="lead">常见问题的答案都在这里。</p>
+        <details>
+          <summary>ZipMan 需要什么系统？</summary>
+          <p>macOS 26 或更高版本，原生支持 Apple 芯片和 Intel 芯片的 Mac。</p>
+        </details>
+        <details>
+          <summary>怎么安装？</summary>
+          <p>打开下载的 DMG，把 ZipMan 拖到“应用程序”文件夹。如果直接从 DMG 或“下载”文件夹打开，ZipMan 会提示你把它移到“应用程序”文件夹。</p>
+        </details>
+        <details>
+          <summary>怎样让双击压缩包时用 ZipMan 打开？</summary>
+          <p>首次启动的欢迎页里可以直接设置；之后也可以在 ZipMan 的“设置 › Finder”中点“设为默认”。双击时是直接解压还是打开浏览窗口，在“设置 › 通用”中选择。</p>
+        </details>
+        <details>
+          <summary>右键菜单里找不到 ZipMan 的命令？</summary>
+          <p>在 ZipMan 的“设置 › Finder”中点“扩展设置…”，在打开的系统设置里启用 ZipMan 的 Finder 扩展。未启用时，这些命令在右键菜单的“快速操作”或“服务”子菜单中。</p>
+        </details>
+        <details>
+          <summary>按空格看不到压缩包里的文件？</summary>
+          <p>在“系统设置 › 通用 › 登录项与扩展 › 快速查看”中确认 ZipMan 已打开。文件名经过加密的压缩包无法预览，请在 ZipMan 中输入密码后浏览。</p>
+        </details>
+        <details>
+          <summary>分卷压缩包怎么解压？</summary>
+          <p>把所有分卷放在同一个文件夹里，打开其中任意一卷即可，ZipMan 会自动从第一卷开始解压。支持 .part1.rar、.r00、.7z.001、.zip.001、.z01 等命名方式。</p>
+        </details>
+        <details>
+          <summary>为什么别人打不开我加密的 zip？</summary>
+          <p>系统的“归档实用工具”和 Windows 资源管理器都打不开 AES-256 加密的 zip，需要用 ZipMan、7-Zip 等工具。需要兼容时，压缩时把“加密方式”选为 ZipCrypto（安全性较低）。分卷 zip（.zip.001…）同样需要 ZipMan、7-Zip 或 Keka 才能打开。</p>
+        </details>
+        <details>
+          <summary>解压出来的中文文件名是乱码？</summary>
+          <p>ZipMan 会自动识别 Windows 上常见的 GBK 编码文件名。如果仍然出现乱码，请向我们反馈，方便的话附上压缩包的来源或文件列表。</p>
+        </details>
+        <details>
+          <summary>怎么更新？</summary>
+          <p>ZipMan 会自动检查更新，也可以在菜单“ZipMan › 检查更新…”中手动检查。更新选项在“设置 › 关于”中。</p>
+        </details>
+        <details>
+          <summary>怎么卸载？</summary>
+          <p>退出 ZipMan，把它从“应用程序”文件夹移到废纸篓。如果曾把它设为默认解压工具，可以在 Finder 中对压缩包“显示简介 › 打开方式”改回其他应用。</p>
+        </details>
+        <h2>还有问题？</h2>
+        <p>ZipMan 发布后，可以在 GitHub 上提交问题和建议。</p>
+      </article>
+    </main>
+    <footer>
+      <p><a href="/privacy/">隐私</a> · <a href="/support/">支持</a></p>
+      <p class="fine">© 2026 hiimobapps。Mac 和 macOS 是 Apple Inc. 的商标。</p>
+    </footer>
+  </body>
+</html>
